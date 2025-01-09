@@ -25,7 +25,7 @@ public class HandlingAlerts {
 //	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 //	    driver.switchTo().alert().dismiss();
 	    
-//	    3)Alerts with some input text and then accept
+//	    3)Alerts with adding some input text and then accept
 	    driver.findElement(By.xpath("//*[@id=\"content\"]/div/ul/li[3]/button")).click();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
 	    
