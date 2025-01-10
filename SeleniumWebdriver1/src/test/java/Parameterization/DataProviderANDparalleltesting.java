@@ -77,8 +77,9 @@ public class DataProviderANDparalleltesting {
 		   {
 			  Utility.takingscreenshots(driver, result.getName());
 		   }
-		   
+		   System.out.println("hello");
 	   }
+
 	
 	
 	
